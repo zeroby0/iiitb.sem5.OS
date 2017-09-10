@@ -1,3 +1,5 @@
+echo "needs /proc"
+
 gcc loop.sh -o loop
 ./loop &
 ls /proc/$!
