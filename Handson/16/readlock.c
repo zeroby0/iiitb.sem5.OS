@@ -15,7 +15,7 @@ int main(int argc, char const *argv[])
 	lock.l_start = 0;
 	lock.l_len = 0; // Till the end of the file
 	lock.l_pid = getpid();
-	lock.l_type = F_WRLCK;
+	lock.l_type = F_RDLCK;
 	lock.l_whence = SEEK_SET;
 
 	printf("Before entering critical section\n");
