@@ -33,5 +33,6 @@ int main(int argc, char const *argv[])
 	lock.l_type = F_UNLCK;
 
 	fcntl(fd, F_SETLK, &lock);
+	close(fd);
 	return 0;
 }
