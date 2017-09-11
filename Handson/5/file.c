@@ -7,5 +7,5 @@ int main() {
 	open("4.txt", O_WRONLY);
 	open("5.txt", O_WRONLY);
 
-	while(1);
+	getchar();
 }
