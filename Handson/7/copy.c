@@ -14,6 +14,9 @@ int createFile(char* fileName, int permissions) {
 }
 
 int copy(char* src, char* dest) {
+    // Copy file.
+    // Read file and write to new file
+    
     char buff[2];
 
     int f_src = open(src, O_RDONLY);

@@ -24,6 +24,8 @@ int main(int argc, char const *argv[])
 
 	printf("Inside critical section\n");
 
+	// critical
+	
 	printf("Enter to unlock\n");
 
 	getchar();
